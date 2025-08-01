@@ -1,0 +1,62 @@
+@import "tailwindcss";
+html {
+  scrollbar-width: none;
+}
+@layer base {
+    .row {
+        @apply flex flex-wrap
+    }
+
+    .element-with-hidden-scrollbar {
+        scrollbar-width: none;
+        /* Hides the scrollbar */
+    }
+}
+
+@layer components {}
+
+@layer utilities {}
+
+@layer theme {}
+
+@keyframes goOut {
+    from {
+        transform: translate(0, 0);
+        opacity: 1;
+        display: flex;
+    }
+
+    to {
+        transform: translate(-100vw, 0);
+        opacity: 0;
+        display: none;
+    }
+}
+
+.goOut {
+    animation: goOut 1s ease-in-out 0.2s 1 forwards;
+}
+
+@keyframes shootBulletRight {
+    0% {
+        left: 192px;
+        top: 136px;
+    }
+
+    100% {
+        left: 2000px;
+        top: 136px;
+    }
+}
+
+@keyframes shootBulletLeft {
+    0% {
+        left: 80px;
+        top: 136px;
+    }
+
+    100% {
+        left: -2000px;
+        top: 136px;
+    }
+}
