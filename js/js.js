@@ -16,9 +16,9 @@ let myAntiHero;
 let AntiHeroCount = 5;
 let flagOfCreateElement = false;
 const arrayOfIdlePicture = [
-    { id: 0, img: "img/idles/terrorist1.png", figCaption: "Ansar Allah", name: "Ansar Allah" },
-    { id: 1, img: "img/idles/terrorist2.png", figCaption: "Osama bin Ladan", name: "Osama bin Ladan" },
-    { id: 2, img: "img/idles/terrorist3.png", figCaption: "Abu Bakr al-Baghdadi", name: "Abu Bakr al-Baghdadi" }
+    { id: 0, img: "img/idles/terrorist1.png", figCaption: "TERRORIST", name: "Ansar Allah" },
+    { id: 1, img: "img/idles/terrorist2.png", figCaption: "HUNTER", name: "Osama bin Ladan" },
+    { id: 2, img: "img/idles/terrorist3.png", figCaption: "MAFIA", name: "Abu Bakr al-Baghdadi" }
 ]
 const countPngForStatesOfCharacter = {
     countOfAttack1: 6, countOfAttack2: 4, countOfAttack3: 6, countOfAttack4: 6, countOfHurt: 9, countOfIdle: 8, countOfJump: 8, countOfRun: 6, countOfWalk: 8
